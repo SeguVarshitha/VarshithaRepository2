@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Letz talk?</title>
+      <style>
+        .contact-form {
+            background-color: burlywood;
+        }
+        h2 {
+            color: seagreen;
+            font-weight: bolder;
+        }
+        html {
+            background-color: rgb(201, 226, 218);
+        }
+        /* Add CSS styling for the contact form */
+        .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(223, 169, 207, 0.1);
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #444;
+        }
+
+        /* Styling for SocialMediaHandles */
+        .SocialMediaHandles {
+            margin-top: 30px;
+        }
+
+        .SocialMediaHandles h2 {
+            color: seagreen;
+            font-weight: bolder;
+        }
+
+        .SocialMediaHandles a {
+            display: block;
+            margin-bottom: 10px;
+            color: blue;
+            text-decoration: none;
+        }
+
+        .SocialMediaHandles img {
+            max-width: 100px;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        a{
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+        }
+        .SocialMediaHandles > a{
+            font-family: Arial, sans-serif;
+            
+        }
+      </style>
+    </head>
+    <body>
+        <section id="contact">
+            <a href="../assets/hey.mp4">All cool?</a>
+            <h2>Heyy!! Hope you're doing good!</h2>
+            <h1>ContactMe</h1>
+            <div class="contact-form">
+              <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <br>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <br>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <br>
+                <input type="submit" value="Send Message">
+              </form>
+            </div>
+            <div class="SocialMediaHandles">
+                <h2>My Social Media Handles</h2>
+                <a href="https://www.instagram.com/varshasegu/">Instagram</a>
+                <img src="../assets/varshasegu_qr.png" alt="QRcode">
+                <a href="https://www.linkedin.com/in/varshitha-segu-b85756262/">Linked in</a>
+            </div>
+          </section>
+    </body>
+</html>
